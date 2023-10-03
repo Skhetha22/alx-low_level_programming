@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _puts_recursion - main
+* _puts_recursion - main funcion
 *
 * @s: function parameter
 *
@@ -11,9 +11,9 @@ void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-	_putchar(*s);
+	_puchar (*s);
 	_puts_recursion(s + 1);
 	}
 	else
-	_putchar('\n');
+	_puchar('\n');
 }
