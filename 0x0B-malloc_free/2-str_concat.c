@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - gets ends of input and adds together for size
+ * str_concat - get end of input and add together for size
  * @s1: input one to concat
  * @s2: input two to concat
  * Return: concat of s1 and s2
@@ -12,9 +12,9 @@ char *str_concat(char *s1, char *s2)
 	int i, ci;
 
 	if (s1 == NULL)
-		s1 = "";
+	s1 = "";
 	if (s2 == NULL)
-		s2 = "";
+	s2 = "";
 
 		i = ci = 0;
 	while (s1[i] != '\0')
