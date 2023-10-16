@@ -1,8 +1,3 @@
-/*
- * File: 4-new_dog.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "dog.h"
 #include <stdlib.h>
 
